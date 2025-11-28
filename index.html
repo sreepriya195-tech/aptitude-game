@@ -115,7 +115,7 @@
         }
 
         #question {
-            font-size: 26px;
+            font-size: 20px;
             font-weight: bold;
             text-shadow: 0 0 10px #1dc0cf;
             margin-bottom: 15px;
@@ -128,13 +128,17 @@
     <!-- BACKGROUND CANVAS -->
     <canvas id="circuit"></canvas>
 
-    <!-- WELCOME SCREEN -->
-    <div class="welcome" id="welcomeScreen">
-        <h2>Welcome to the Tech Aptitude Challenge!</h2>
-        <p>7 Levels • Increasing Difficulty • One Total Timer</p>
-        <button onclick="startChallenge()">Start Challenge</button>
-    </div>
+    
+     <!-- WELCOME SCREEN -->
+<div class="welcome" id="welcomeScreen">
+    <h1> Tech Aptitude Challenge</h1>
+    <p class="tagline">
+        Test your speed, logic, and technical skills in this fast-paced challenge.  
+        Are you ready to prove your mastery?
+    </p>
 
+    <button class="start-btn" onclick="startChallenge()">Begin the Challenge</button>
+</div>
     <!-- GAME SCREEN -->
     <div class="container" id="challenge">
         <div id="mainTimer">0:00</div>
@@ -328,3 +332,4 @@
 </body>
 
 </html>
+
